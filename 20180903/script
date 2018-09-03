@@ -1,0 +1,100 @@
+imbugyeom:~/workspace/201802-practice-ImBuGyeom (master) $ clear
+imbugyeom:~/workspace/201802-practice-ImBuGyeom (master) $ ..
+imbugyeom:~/workspace $ ls
+201802-practice-ImBuGyeom/  README.md        hello-cpp-world.cc
+Makefile                    hello-c-world.c
+imbugyeom:~/workspace $ cd ./
+imbugyeom:~/workspace $ cd ./201802-practice-ImBuGyeom/
+imbugyeom:~/workspace/201802-practice-ImBuGyeom (master) $ ls
+20180903/  again_first.cpp  first.cpp     script_180902
+a.out*     first*           first.cpp.o*
+imbugyeom:~/workspace/201802-practice-ImBuGyeom (master) $ ls
+20180903/  again_first.cpp  first.cpp     script_180902
+a.out*     first*           first.cpp.o*
+imbugyeom:~/workspace/201802-practice-ImBuGyeom (master) $ cd 20180903/
+imbugyeom:~/workspace/201802-practice-ImBuGyeom/20180903 (master) $ ls
+YHCP14.cpp
+imbugyeom:~/workspace/201802-practice-ImBuGyeom/20180903 (master) $ g++ YHCP14.cpp
+imbugyeom:~/workspace/201802-practice-ImBuGyeom/20180903 (master) $ ls
+YHCP14.cpp  a.out*
+imbugyeom:~/workspace/201802-practice-ImBuGyeom/20180903 (master) $ ./a.out
+Hello World!
+Hello World~!
+20 A 3.14
+imbugyeom:~/workspace/201802-practice-ImBuGyeom/20180903 (master) $ ./a.out
+Hello World!
+Hello World~!
+20 A 3.14
+imbugyeom:~/workspace/201802-practice-ImBuGyeom/20180903 (master) $ ./a.out
+Hello World!
+Hello World~!
+20 A 3.14
+imbugyeom:~/workspace/201802-practice-ImBuGyeom/20180903 (master) $ g++ YHCP14.cpp
+imbugyeom:~/workspace/201802-practice-ImBuGyeom/20180903 (master) $ ./a.out
+Hello World!
+Hello World~!
+20 A20 A
+ 3.14
+imbugyeom:~/workspace/201802-practice-ImBuGyeom/20180903 (master) $ ./a.out
+Hello World!
+Hello World~!
+20 A20 A
+ 3.14
+imbugyeom:~/workspace/201802-practice-ImBuGyeom/20180903 (master) $ g++ YHCP14.cpp
+YHCP14.cpp: In function ‘int main()’:
+YHCP14.cpp:10:38: error: ‘endl’ was not declared in this scope
+     std::cout << num << ' ' << 'A' <<endl;
+                                      ^
+YHCP14.cpp:10:38: note: suggested alternative:
+In file included from /usr/include/c++/4.8/iostream:39:0,
+                 from YHCP14.cpp:1:
+/usr/include/c++/4.8/ostream:564:5: note:   ‘std::endl’
+     endl(basic_ostream<_CharT, _Traits>& __os)
+     ^
+imbugyeom:~/workspace/201802-practice-ImBuGyeom/20180903 (master) $ g++ YHCP14.cpp                                                      
+imbugyeom:~/workspace/201802-practice-ImBuGyeom/20180903 (master) $ ./a.out                                                             
+Hello World!
+Hello World~!
+20 A20 A
+20 A
+ 3.14
+imbugyeom:~/workspace/201802-practice-ImBuGyeom/20180903 (master) $ g++ YHCP14.cpp
+imbugyeom:~/workspace/201802-practice-ImBuGyeom/20180903 (master) $ ./a.out                                                             
+Hello World!
+Hello World~!
+20 A20 A
+20 A
+ 3.14imbugyeom:~/workspace/201802-practice-ImBuGyeom/20180903 (masteg++ YHCP14.cpp
+imbugyeom:~/workspace/201802-practice-ImBuGyeom/20180903 (master) $ ./a.out                                                             
+Hello World!
+Hello World~!
+imbugyeom:~/workspace/201802-practice-ImBuGyeom/20180903 (master) $ g++ YHCP14.cpp
+imbugyeom:~/workspace/201802-practice-ImBuGyeom/20180903 (master) $ 
+imbugyeom:~/workspace/201802-practice-ImBuGyeom/20180903 (master) $ ./a.out
+Hello World!
+Hello World~!
+20 A20 A
+20 A 3.14imbugyeom:~/workspace/201802-practice-ImBuGyeom/20180903 (master) $ g++ YHCP14.cpp
+imbugyeom:~/workspace/201802-practice-ImBuGyeom/20180903 (master) $ ./a.out
+Hello World!
+Hello World~!
+20 A20 A
+20 A 3.14imbugyeom:~/workspace/201802-practice-ImBuGyeom/20180903 (master) $ ls
+YHCP14.cpp  a.out*
+imbugyeom:~/workspace/201802-practice-ImBuGyeom/20180903 (master) $ git add .
+imbugyeom:~/workspace/201802-practice-ImBuGyeom/20180903 (master) $ git commit -m"YHCPP14"
+[master 163bca3] YHCPP14
+ 1 file changed, 21 insertions(+)
+ create mode 100644 20180903/YHCP14.cpp
+imbugyeom:~/workspace/201802-practice-ImBuGyeom/20180903 (master) $ git push
+Username for 'https://github.com': ImBuGyeom
+Password for 'https://ImBuGyeom@github.com': 
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 674 bytes | 674.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/hgu-sit22005/201802-practice-ImBuGyeom.git
+   4726729..163bca3  master -> master
+imbugyeom:~/workspace/201802-practice-ImBuGyeom/20180903 (master) $ 
