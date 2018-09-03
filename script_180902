@@ -1,0 +1,194 @@
+imbugyeom:~/workspace $ git
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+imbugyeom:~/workspace $ clear
+imbugyeom:~/workspace $ ls
+Makefile  README.md  hello-c-world.c  hello-cpp-world.cc
+imbugyeom:~/workspace $ git clone https://github.com/hgu-sit22005/201802-practice-ImBuGyeom.git
+Cloning into '201802-practice-ImBuGyeom'...
+warning: You appear to have cloned an empty repository.
+imbugyeom:~/workspace $ ls
+201802-practice-ImBuGyeom/  Makefile  README.md  hello-c-world.c  hello-cpp-world.cc
+imbugyeom:~/workspace $ cd 201802-practice-ImBuGyeom/
+imbugyeom:~/workspace/201802-practice-ImBuGyeom (master) $ ls
+first.cpp
+imbugyeom:~/workspace/201802-practice-ImBuGyeom (master) $ g++ first.cpp
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 0 has invalid symbol index 11
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 1 has invalid symbol index 12
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 2 has invalid symbol index 2
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 3 has invalid symbol index 2
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 4 has invalid symbol index 11
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 5 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 6 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 7 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 8 has invalid symbol index 12
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 9 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 10 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 11 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 12 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 13 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 14 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 15 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 16 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 17 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 18 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 19 has invalid symbol index 21
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_line): relocation 0 has invalid symbol index 2
+/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+imbugyeom:~/workspace/201802-practice-ImBuGyeom (master) $ ls
+first.cpp
+imbugyeom:~/workspace/201802-practice-ImBuGyeom (master) $ g++ first.cpp
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 0 has invalid symbol index 11
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 1 has invalid symbol index 12
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 2 has invalid symbol index 2
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 3 has invalid symbol index 2
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 4 has invalid symbol index 11
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 5 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 6 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 7 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 8 has invalid symbol index 12
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 9 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 10 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 11 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 12 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 13 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 14 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 15 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 16 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 17 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 18 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_info): relocation 19 has invalid symbol index 21
+/usr/bin/ld: /usr/lib/debug/usr/lib/x86_64-linux-gnu/crt1.o(.debug_line): relocation 0 has invalid symbol index 2
+/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+imbugyeom:~/workspace/201802-practice-ImBuGyeom (master) $ ./a.out
+bash: ./a.out: No such file or directory
+imbugyeom:~/workspace/201802-practice-ImBuGyeom (master) $ g++ first.cpp
+imbugyeom:~/workspace/201802-practice-ImBuGyeom (master) $ ./a.out
+Hello, World!
+imbugyeom:~/workspace/201802-practice-ImBuGyeom (master) $ cd ..
+imbugyeom:~/workspace $ ./
+.c9/                       201802-practice-ImBuGyeom/ 
+imbugyeom:~/workspace $ ./
+.c9/                       201802-practice-ImBuGyeom/ 
+imbugyeom:~/workspace $ ./201802-practice-ImBuGyeom/
+.git/        a.out        first.cpp.o  
+imbugyeom:~/workspace $ ./201802-practice-ImBuGyeom/a.out 
+Hello, World!
+imbugyeom:~/workspace $ g++ first.cpp
+g++: error: first.cpp: No such file or directory
+g++: fatal error: no input files
+compilation terminated.
+imbugyeom:~/workspace $ cd 201802-practice-ImBuGyeom/
+imbugyeom:~/workspace/201802-practice-ImBuGyeom (master) $ ls
+a.out*  first.cpp  first.cpp.o*
+imbugyeom:~/workspace/201802-practice-ImBuGyeom (master) $ g++ first.cpp
+imbugyeom:~/workspace/201802-practice-ImBuGyeom (master) $ ./a.out
+Hello, World!
+imbugyeom:~/workspace/201802-practice-ImBuGyeom (master) $ cd ..
+imbugyeom:~/workspace $ ./201802-practice-ImBuGyeom/
+bash: ./201802-practice-ImBuGyeom/: Is a directory
+imbugyeom:~/workspace $ cd 201802-practice-ImBuGyeom/
+imbugyeom:~/workspace/201802-practice-ImBuGyeom (master) $ git add .
+imbugyeom:~/workspace/201802-practice-ImBuGyeom (master) $ git commit -m"Initial Commit"
+[master (root-commit) 99b46b3] Initial Commit
+ 1 file changed, 5 insertions(+)
+ create mode 100644 first.cpp
+imbugyeom:~/workspace/201802-practice-ImBuGyeom (master) $ git push
+Username for 'https://github.com': ImBuGyeom
+Password for 'https://ImBuGyeom@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 292 bytes | 292.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/hgu-sit22005/201802-practice-ImBuGyeom.git
+ * [new branch]      master -> master
+imbugyeom:~/workspace/201802-practice-ImBuGyeom (master) $ g++ first.cpp
+imbugyeom:~/workspace/201802-practice-ImBuGyeom (master) $ ./a.out
+Hello, World!
+imbugyeom:~/workspace/201802-practice-ImBuGyeom (master) $ g++ again_first.cpp
+imbugyeom:~/workspace/201802-practice-ImBuGyeom (master) $ ./a.out
+Hello, World!
+imbugyeom:~/workspace/201802-practice-ImBuGyeom (master) $ ls
+a.out*  again_first.cpp  first.cpp  first.cpp.o*
+imbugyeom:~/workspace/201802-practice-ImBuGyeom (master) $ ls
+a.out*  again_first.cpp  first.cpp  first.cpp.o*
+imbugyeom:~/workspace/201802-practice-ImBuGyeom (master) $ g++ again_first.cpp
+imbugyeom:~/workspace/201802-practice-ImBuGyeom (master) $ ./a.out
+Hello, World!!!!
+imbugyeom:~/workspace/201802-practice-ImBuGyeom (master) $ ./a.out
+Hello, World!!!!
+imbugyeom:~/workspace/201802-practice-ImBuGyeom (master) $ g++ first.cpp
+imbugyeom:~/workspace/201802-practice-ImBuGyeom (master) $ ./a.out
+Hello, World!@@@
+imbugyeom:~/workspace/201802-practice-ImBuGyeom (master) $ g++ first.cpp -o first
+imbugyeom:~/workspace/201802-practice-ImBuGyeom (master) $ ./first
+Hello, World!@@@
+imbugyeom:~/workspace/201802-practice-ImBuGyeom (master) $ git push
+Username for 'https://github.com': ImBuGyeom
+Password for 'https://ImBuGyeom@github.com': 
+Everything up-to-date
+imbugyeom:~/workspace/201802-practice-ImBuGyeom (master) $ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+imbugyeom:~/workspace/201802-practice-ImBuGyeom (master) $ git add .
+imbugyeom:~/workspace/201802-practice-ImBuGyeom (master) $ git commit -m"try again Initial commit"
+[master 842276d] try again Initial commit
+ 3 files changed, 8 insertions(+), 1 deletion(-)
+ create mode 100644 again_first.cpp
+ create mode 100755 first
+imbugyeom:~/workspace/201802-practice-ImBuGyeom (master) $ git push
+Username for 'https://github.com': ImBuGyeom
+Password for 'https://ImBuGyeom@github.com': 
+Counting objects: 5, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 3.34 KiB | 3.34 MiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To https://github.com/hgu-sit22005/201802-practice-ImBuGyeom.git
+   99b46b3..842276d  master -> master
+imbugyeom:~/workspace/201802-practice-ImBuGyeom (master) $ 
