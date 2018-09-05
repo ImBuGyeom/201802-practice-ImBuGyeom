@@ -1,0 +1,21 @@
+  282  cd 20180905
+  283  git clone https://github.com/hgu-sit22005/201802-practice-ImBuGyeom.git
+  284  ls
+  285  cd ..
+  286  ls
+  287  cd ./20180905/201802-practice-ImBuGyeom/
+  288  ls
+  289  cd ..
+  290  ls
+  291  git add ./three.cpp
+  292  git commit -m"double_masters"
+  293  git push
+  294  cd ..
+  295  cd 201802-practice-ImBuGyeom/
+  296  cd 20180903
+  297  cd ..
+  298  cd 20180904
+  299  cd ..
+  300  cd ./20180905
+  301  touch history.txt
+  302  history
