@@ -19,3 +19,41 @@
   300  cd ./20180905
   301  touch history.txt
   302  history
+  303  cd ..
+  304  git add ./20180905
+  305  cd 20180905
+  306  git add./history.txt
+  307  git add ./history.txt
+  308  git commit -m"used_commands_list"
+  309  git push
+  310  cd ./201802-practice-ImBuGyeom/20180905
+  311  cd ./201802-practice-ImBuGyeom/
+  312  cd ..
+  313  rm ./*/
+  314  rmdir ./*/
+  315  rmdir ./*/ -rf
+  316  rmdir -rf ./*/
+  317  rmdir 201802-practice-ImBuGyeom/
+  318  rmdir *
+  319  cd 201802-practice-ImBuGyeom/
+  320  cd 20180903
+  321  rm *
+  322  cd ..
+  323  cd 20180904
+  324  rm *
+  325  cd ..
+  326  rmdir *
+  327  rm *
+  328  cd ..
+  329  rmdir *
+  330  rmdir 201802-practice-ImBuGyeom
+  331  ls
+  332  git add .
+  333  git commit -m"directory_remove"
+  334  git push
+  335  mv ./../* ./
+  336  cd ..
+  337  git add .
+  338  git commit -m"최교수님 잘생겼어요"
+  339  git push
+  340  history
