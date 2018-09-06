@@ -1,0 +1,79 @@
+여기에 글을 쓰면 어떻게 될까?
+  379  cd workspace/201802-practice-ImBuGyeom/20180907
+  380  ls
+  381  cp basic_command basic_command.txt
+  382  cp ./*.* .
+  383  mv basic_command.txt bscmd
+  384  mv bscmd ../20180906/mv_practice
+  385  cd ..
+  386  ls
+  387  cd 20180906
+  388  ls
+  389  rm mv_practice 
+  390  ls
+  391  cd ..
+  392  cd 20180907
+  393  ls
+  394  mkdir mkdir_practice
+  395  ls
+  396  rmdir mkdir_practice/
+  397  ls
+  398  mkdir mkdir_practice
+  399  rmdir -r mkdir_practice/
+  400  rmdir -rf mkdir_practice/
+  401  rm -r mkdir_practice/
+  402  mkdir mkdir_practice
+  403  rm -i m.*
+  404  rm -i m*.*
+  405  rm -i mkdir_practice/
+  406  rm -r mkdir_practice/
+  407  pwd
+  408  pico
+  409  emacs
+  410  cd ..
+  411  cd 20180906
+  412  ls
+  413  cat practice0906.cpp 
+  414  cd ..
+  415  cd 20180907
+  416  ls
+  417  more 
+  418  more -v
+  419  who
+  420  ls
+  421  basic_command
+  422  ./basic_command
+  423  ls -al
+  424  ls -a
+  425  ls -l
+  426  chmod 744 basic_command 
+  427  ls -l
+  428  ./basic_command
+  429  cd 20180906
+  430  cd /..
+  431  ls
+  432  cd ~
+  433  cd home
+  434  ls
+  435  cd workspace/
+  436  cd 201802-practice-ImBuGyeom/
+  437  cd 20180907
+  438  c
+  439  ls
+  440  dir
+  441  ls
+  442  dir
+  443  cat basic_command 
+  444  ls -l basic_command 
+  445  ls
+  446  pwd
+  447  cd ~/20180904
+  448  mkdir mvpractice
+  449  cd mvpractice/
+  450  cd ~/201802-practice-ImBuGyeom
+  451  cd ../..
+  452  cd 20180907/mvpractice/
+  453  cd ~/workspace/201802-practice-ImBuGyeom/
+  454  history
+  cat basic_command
+  more basic_command
