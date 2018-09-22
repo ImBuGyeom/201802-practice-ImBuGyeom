@@ -33,6 +33,6 @@ int main(int argc, char** argv)
     
     
     
-    for (i = 1; i <= 10; i ++)
-        std::cout<<"[%2d] (%3d/100) %c\n"<<i<<scores[i]<<grades[i]<<std::endl;
+    for (i = 0; i <= 9; i ++)
+        std::cout<<"[%2d] (%3d/100)"<<i<<scores[i]<<grades[i]<<std::endl;
 }
