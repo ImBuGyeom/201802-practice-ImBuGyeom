@@ -34,5 +34,5 @@ int main(int argc, char** argv)
     
     
     for (i = 0; i <= 9; i ++)
-        std::cout<<"[%2d] (%3d/100)"<<i<<scores[i]<<grades[i]<<std::endl;
+        std::cout<<"["<<i+1<<"]"<<scores[i]<<grades[i]<<std::endl;
 }
