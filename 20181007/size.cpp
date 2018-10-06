@@ -9,6 +9,8 @@ int main()
     
     std::cout<<"length of num1 = " << sizeof(num1)/sizeof(int)<<std::endl;
     std::cout<<"length of num2 = " << sizeof(num2)/sizeof(int)<<std::endl;
+    std::cout<<"length of num1 = " << sizeof(num1)<<std::endl;
+    std::cout<<"length of num2 = " << sizeof(num2)<<std::endl;
     return 0;
     
     
